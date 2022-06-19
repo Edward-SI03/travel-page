@@ -6,53 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Travle Goals</title>
     <link href="styles.css" rel="stylesheet" />
+    <link href="shared.css" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Poppins:wght@100;300;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
+      <div id="nav">
+        <a href="index.html" id="main-logo">Travel Goals</a>
+      </div>
       <nav>
-        <div id="nav">
-          <div id="main-logo">Travel Goals</div>
-          <div id="pages">
-            <div id="detail-page">Destinations</div>
-            <div id="detail-page">About</div>
-          </div>
-        </div>
+        <ul>
+          <li>
+            <a href="place.html">Destinations</a>
+          </li>
+          <li>
+            <a href="place.html">About</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <section id="main-img">
-        <img src="ocean.jpg" />
         <div id="intro-box">
           <h1>JIN's Travel Page</h1>
           <p>Let's Explore the world Together!</p>
-          <button>Discover places</button>
+          <a href="place.html">Discover places</a>
         </div>
       </section>
       <section id="second-box">
         <h3>Highlights</h3>
         <div id="cards">
           <div id="card">
-            <img src="ocean.jpg" />
+            <img src="/images/cities/barcelona.jpg" />
             <p>USA</p>
           </div>
           <div id="card">
-            <img src="ocean.jpg" />
+            <img src="/images/cities/miami.jpg" />
             <p>USA</p>
           </div>
           <div id="card">
-            <img src="ocean.jpg" />
+            <img src="/images/cities/munich.jpg" />
             <p>USA</p>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <img src="icons/facebook.png" />
-      <img src="icons/insta.png" />
+      <img src="/images/icons/facebook.png" />
+      <img src="/images/icons/insta.png" />
     </footer>
   </body>
 </html>
