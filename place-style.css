@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(180deg, white, black);
+}
+
+header {
+  position: static;
+}
+
+ul {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+li:nth-of-type(4) {
+  grid-column: 1 / span 2;
+}
+
+li:nth-of-type(7) {
+  grid-column: 1 / span 2;
+}
+
+main li {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px black;
+}
+
+li img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.item-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.actions {
+  text-align: right;
+}
+
+.actions a {
+  color: black;
+  padding: 10px;
+}
+
+.action a:hover {
+  color: blue;
+}
+
+.item-content h2 {
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.item-content p {
+  font-size: 18px;
+}
